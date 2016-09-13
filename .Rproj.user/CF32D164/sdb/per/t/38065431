@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(ggplot2)\nggplot(data = mpg) + geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv))\nggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = drv)) + geom_point() + geom_smooth(se = FALSE)\nggplot(data=mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot()\nggplot(data=mpg, mapping = aes(x = class, y = hwy)) + geom_boxplot() + coord_flip()\nlibrary(dplyr)\nlibrary(nycflights13)\nflights\nfilter(flights, arr_delay >= 120)\n",
+    "created" : 1473778840869.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2163255896",
+    "id" : "38065431",
+    "lastKnownWriteTime" : 1473778808,
+    "last_content_update" : 1473778808,
+    "path" : "G:/Cephas/Rproject/Rpro/Training-R/Rpro.rmd",
+    "project_path" : "Rpro.rmd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
